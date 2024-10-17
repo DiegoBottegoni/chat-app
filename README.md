@@ -41,3 +41,14 @@ Esta es una sencilla aplicación de chat en tiempo real construida con Node.js, 
 
    ```bash
    npm run dev
+   
+## Algunos avances pendientes:
+
+- **Autenticación de usuarios**: *Implementar un* [sistema de registro y autenticación](https://github.com/DiegoBottegoni/users_management) *para garantizar que solo los usuarios registrados puedan acceder al chat.*
+- **Persistencia de Mensajes**: *Almacenar los mensajes en una base de datos (como MongoDB) para que los usuarios puedan ver el historial de mensajes cuando vuelven a conectarse.*
+- **Estilos y Diseño**: *Mejorar el diseño de la interfaz de usuario para una mejor experiencia visual.*
+- **Emojis y Multimedia**: *Permitir el envío de emojis, imágenes o archivos para enriquecer la experiencia de chat.*
+- **Canales de Chat**: *Implementar la posibilidad de crear diferentes salas o canales de chat para que los usuarios puedan unirse a discusiones específicas.*
+- **Sistema de Notificaciones**: *Añadir notificaciones visuales y/o sonoras para alertar a los usuarios sobre nuevos mensajes.*
+- **Modo Oscuro**: *Implementar un modo oscuro para que los usuarios puedan elegir un tema que sea más fácil para la vista en condiciones de poca luz.*
+- **Correción en colores de alias**: *En caso de alias duplicados que asigne diferentes colores*
