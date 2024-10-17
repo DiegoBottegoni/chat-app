@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Chat</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <form id="aliasForm" action="">
+            <input id="aliasInput" placeholder="Enter your alias" autocomplete="off" />
+            <button>Set Alias</button>
+        </form>
+        <div id="chat-container">
+            <div id="users-container">
+                <h3>Users Online</h3>
+                <ul id="users"></ul>
+            </div>
+
+            <div id="messages-container">
+                <ul id="messages"></ul>
+                <form id="form" action="">
+                    <input id="input" autocomplete="off" /><button>Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
