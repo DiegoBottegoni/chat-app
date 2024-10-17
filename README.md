@@ -20,7 +20,7 @@ Esta es una sencilla aplicación de chat en tiempo real construida con Node.js, 
 1. Clonar el repositorio:
 
    ```bash
-   git clone https://github.com/tu_usuario/users_management.git
+   git clone https://github.com/diegobottegoni/chat-app.git
    
 2. Navegar a la carpeta del proyecto:
 
