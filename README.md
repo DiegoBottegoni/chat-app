@@ -41,6 +41,8 @@ Esta es una sencilla aplicación de chat en tiempo real construida con Node.js, 
 
    ```bash
    npm run dev
+
+6. Abrir 'http://localhost:3000' en el navegador, una pestaña por usuario.
    
 ## Algunos avances pendientes:
 
