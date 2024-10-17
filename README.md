@@ -53,4 +53,7 @@ Esta es una sencilla aplicación de chat en tiempo real construida con Node.js, 
 - **Canales de Chat**: *Implementar la posibilidad de crear diferentes salas o canales de chat para que los usuarios puedan unirse a discusiones específicas.*
 - **Sistema de Notificaciones**: *Añadir notificaciones visuales y/o sonoras para alertar a los usuarios sobre nuevos mensajes.*
 - **Modo Oscuro**: *Implementar un modo oscuro para que los usuarios puedan elegir un tema que sea más fácil para la vista en condiciones de poca luz.*
-- **Correción en colores de alias**: *En caso de alias duplicados que asigne diferentes colores*
+
+## Algunos arreglos pendientes:
+- **Correción de los colores en alias duplicados**: *En caso de alias duplicados que igualmente se asignen diferentes colores*
+- **Coherencia de los colores**: *Que respete el mismo color para el mismom alias tanto en los mensajes como en la lista de usuarios online* 
